@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('paytabs/testing', 'Controller@create_payment_page');
+Route::get('paytabs/create-payment-page', 'Controller@create_payment_page');
 Route::get('paytabs/query_transactions', 'Controller@query_transaction');
